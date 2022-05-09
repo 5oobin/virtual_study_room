@@ -23,6 +23,8 @@
         const URL = "https://teachablemachine.withgoogle.com/models/ATKM8Duo6/";
 
         let model, webcam, labelContainer, maxPredictions;
+        
+        // the following means "upright", "upright_with_phone", "leaning", "leaning_with_phone", "absent"
         const data = {
             "정자세": {
                 "present": "●".fontcolor("#2e8b57").fontsize(20),
