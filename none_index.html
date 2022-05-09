@@ -94,7 +94,7 @@
             for (let i = 0; i < maxPredictions; i++) {
                 if (prediction[i].probability.toFixed(2) > 0.7) {
                     const item = data[prediction[i].className]
-                    labelContainer.innerHTML = `&nbsp; &nbsp; 자리 비움 ${item.present} <br><br> &nbsp; &nbsp; 자세 흐트러짐 ${item.posture} <br><br> &nbsp; &nbsp; 핸드폰 사용 ${item.phone}`
+                    labelContainer.innerHTML = `&nbsp; &nbsp; Absent ${item.present} <br><br> &nbsp; &nbsp; Leaning ${item.posture} <br><br> &nbsp; &nbsp; Using Phone ${item.phone}`
                 }
                 //const classPrediction =
                 //    prediction[i].className + ": " + prediction[i].probability.toFixed(2);
